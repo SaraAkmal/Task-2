@@ -20,7 +20,7 @@ hr.line1{
     display: inline-block;
     width:500px;
     margin-left:140px;
-    margin-top:300px;
+    margin-top:800px;
    border-color:rgba(210, 212, 214,0.5);
 }
 
@@ -29,9 +29,11 @@ hr.line2{
     width:500px;
     float: right;
     margin-right:150px;
-    margin-top:300px;
+    margin-top:800px;
    border-color:rgba(210, 212, 214,0.5);
 }
+
+
 
 .container {
    
@@ -66,6 +68,9 @@ hr.line2{
 
  }
  
+
+ 
+ 
  .section1 {
     width: 100%;
     max-width: none;    
@@ -74,6 +79,8 @@ hr.line2{
     background-color:  rgb(59, 63, 71);
    
   }
+
+
 
   .section2 {
    width: 100%;
@@ -178,4 +185,26 @@ hr.line2{
    font-family:'Lucida Sans'; 
    border-radius: 25px;
 
+}
+
+@media (max-width: 1063){
+   hr.line1{
+      margin-top:400px;
+   }
+   hr.line2{
+      margin-top:400px;
+   }
+}
+@media (max-height: 849px){
+   hr.line1{
+      margin-top:400px;
+   }
+   hr.line2{
+      margin-top:100px;
+   }
+
+   .paragraph{
+    
+      display: block;
+}
 }
