@@ -20,7 +20,7 @@ hr.line1{
     display: inline-block;
     width:500px;
     margin-left:140px;
-    margin-top:800px;
+    margin-top:700px;
    border-color:rgba(210, 212, 214,0.5);
 }
 
@@ -29,7 +29,7 @@ hr.line2{
     width:500px;
     float: right;
     margin-right:150px;
-    margin-top:800px;
+    margin-top:700px;
    border-color:rgba(210, 212, 214,0.5);
 }
 
