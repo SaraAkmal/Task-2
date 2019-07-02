@@ -187,24 +187,17 @@ hr.line2{
 
 }
 
-@media (max-width: 1063){
+@media (max-width: 1639px){
    hr.line1{
-      margin-top:400px;
+      margin-top:300px;
    }
-   hr.line2{
-      margin-top:400px;
-   }
+   
 }
-@media (max-height: 849px){
-   hr.line1{
-      margin-top:400px;
-   }
+@media (max-height: 850px){
+   
    hr.line2{
-      margin-top:100px;
+      margin-top:300px;
    }
 
-   .paragraph{
-    
-      display: block;
-}
+
 }
